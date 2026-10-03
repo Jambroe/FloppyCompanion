@@ -1,7 +1,7 @@
 // Thermal Control Tweak (Floppy2100)
 
 const THERMAL_CONTROL_MIN_C = -50;
-const THERMAL_CONTROL_MAX_C = 15;
+const THERMAL_CONTROL_MAX_C = 35;
 const THERMAL_CONTROL_KEYS = ['little', 'big', 'prime', 'g3d'];
 const THERMAL_CONTROL_SAFE_OFFSETS = Object.freeze({
     performance_mode: '0',
