@@ -14,7 +14,7 @@ LITTLE_NODE="/proc/exynos_tmu/LITTLE_offset"
 G3D_NODE="/proc/exynos_tmu/G3D_offset"
 
 OFFSET_MIN_C=-50
-OFFSET_MAX_C=15
+OFFSET_MAX_C=35
 BOOT_SETTLE_SECONDS=55
 
 thermal_control_available() {

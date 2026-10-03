@@ -211,7 +211,7 @@ fi
 $(if [ "$IS_1280" = "1" ]; then cat << EOF_1280_THERMAL
     "thermal": {
       "mode": "$(cat /sys/devices/platform/10080000.BIG/thermal_mode 2>/dev/null || echo 1)",
-      "custom_freq": "$(cat /sys/devices/platform/10080000.BIG/emergency_frequency 2>/dev/null || echo 2288000)"
+      "custom_freq": "$(cat /sys/devices/platform/10080000.BIG/emergency_frequency 2>/dev/null || echo 2808000)"
     },
 EOF_1280_THERMAL
 fi)
